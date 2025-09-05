@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form id="registrationForm">
+          <label for="firstname">First Name:</label>
+          <input type="text" id="firstname" name="firstname" required />
+    
+          <label for="middleinitial">Middle Initial:</label>
+          <input type="text" id="middleinitial" name="middleinitial" maxlength="1" />
+    
+          <label for="lastname">Last Name:</label>
+          <input type="text" id="lastname" name="lastname" required />
+    
+          <label for="suffix">Suffix:</label>
+          <input type="text" id="suffix" name="suffix" placeholder="Jr., Sr., III (optional)" />
+    
+          <label for="contact">Contact Number:</label>
+          <input type="text" id="contact" name="contact" required />
+    
+          <label for="idnumber">ID Number:</label>
+          <input type="text" id="idnumber" name="idnumber" required />
+    
+          <label for="department">Department:</label>
+          <select id="department" name="department" required>
+            <option value="">--Select Department--</option>
+            <option value="Computer Technology">Computer Technology</option>
+            <option value="Electrical Technology">Electrical Technology</option>
+            <option value="Electronic Technology">Electronic Technology</option>
+            <option value="Mechanical Technology">Mechanical Technology</option>
+          </select>
+    
+          <label for="batch">Batch:</label>
+          <input type="text" id="batch" name="batch" required />
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+    
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+    
+          <button type="submit">Register</button>
+          <p id="error-message"></p>
+        </form>
+      </div>
+    
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
