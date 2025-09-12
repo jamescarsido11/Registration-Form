@@ -1,5 +1,5 @@
-document.getElementById("registrationForm").addEventListener("submit", function (e) {
-    e.preventDefault();
+document.getElementById("registrationForm").addEventListener("submit", function (e) { e.preventDefault();
+    
   
     const firstname = document.getElementById("firstname").value.trim();
     const middleinitial = document.getElementById("middleinitial").value.trim();
@@ -45,5 +45,5 @@ document.getElementById("registrationForm").addEventListener("submit", function 
     }
   
     alert("Registration successful!");
-    // this.reset(); // Optional: Reset form after successful registration
+    
   });
